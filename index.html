@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Go2bookings is a booking platform that makes memorable bookings easy.">
+    <meta name="keywords" content="bookings, events, appointments, venues, hotels, services, registration, contacts, go2bookings">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Go2Bookings - Your Booking Platform</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">Go2Bookings</div>
+            <ul class="navlist">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#booking">Our Services</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#registration">Registration</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Slideshow Section -->
+    <section id="home" class="home">
+        <div class="slideshow-container">
+            <!-- Slide 1 -->
+            <div class="slide fade">
+                <div class="slide-content">
+                    <h1>Bookings made easy</h1>
+                    <h2>Go2bookings makes memorable bookings easy</h2>
+                    <p>We provide an easy and efficient way to manage your bookings for various services. Whether it's for events, appointments, or venues, we have got you covered!</p>
+                </div>
+                <div class="slide-image" style="background-image: url('images/istockphoto-1181407122-612x612.jpg');"></div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="slide fade">
+                <div class="slide-content">
+                    <h1>Your Perfect Venue Awaits</h1>
+                    <h2>Discover amazing locations</h2>
+                    <p>From intimate gatherings to large celebrations, find the perfect space for your next event with our extensive venue network.</p>
+                </div>
+                <div class="slide-image" style="background-image: url('images/istockphoto-1393093359-1024x1024.jpg');"></div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="slide fade">
+                <div class="slide-content">
+                    <h1>Seamless Appointment Booking</h1>
+                    <h2>Schedule with ease</h2>
+                    <p>Our intuitive system makes scheduling appointments simple and hassle-free for both businesses and clients.</p>
+                </div>
+                <div class="slide-image" style="background-image: url('images/istockphoto-2200323741-612x612.jpg');"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="booking" class="booking">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-tabs">
+                <button class="tab-btn active" data-tab="event">Event Bookings</button>
+                <button class="tab-btn" data-tab="appointment">Appointment Bookings</button>
+                <button class="tab-btn" data-tab="venue">Venue Bookings</button>
+                <button class="tab-btn" data-tab="hotel">Hotel Bookings</button>
+            </div>
+            
+            <div class="tab-content active" id="event">
+                <div class="service-details">
+                    <div class="service-image">
+                        <img src="images/istockphoto-1181407122-612x612.jpg" alt="Event Booking">
+                    </div>
+                    <div class="service-info">
+                        <h3>Event Bookings</h3>
+                        <p>Plan your perfect event with our comprehensive booking system. From corporate conferences to wedding celebrations, we've got you covered with venues, caterers, and all the services you need.</p>
+                        <ul>
+                            <li>Wide selection of venues</li>
+                            <li>Vendor coordination</li>
+                            <li>Customizable packages</li>
+                            <li>Real-time availability</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="appointment">
+                <div class="service-details">
+                    <div class="service-image">
+                        <img src="images/istockphoto-1393093359-1024x1024.jpg" alt="Appointment Booking">
+                    </div>
+                    <div class="service-info">
+                        <h3>Appointment Bookings</h3>
+                        <p>Streamline your scheduling with our intuitive appointment system. Perfect for businesses and service providers looking to manage client bookings efficiently.</p>
+                        <ul>
+                            <li>24/7 online booking</li>
+                            <li>Automated reminders</li>
+                            <li>Calendar synchronization</li>
+                            <li>Custom booking forms</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="venue">
+                <div class="service-details">
+                    <div class="service-image">
+                        <img src="images/istockphoto-924559240-612x612.jpg" alt="Venue Booking">
+                    </div>
+                    <div class="service-info">
+                        <h3>Venue Bookings</h3>
+                        <p>Discover and book the perfect venue for your next event. Our extensive network includes unique spaces for every occasion and budget.</p>
+                        <ul>
+                            <li>Detailed venue listings</li>
+                            <li>Virtual tours</li>
+                            <li>Capacity filters</li>
+                            <li>Instant booking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="hotel">
+                <div class="service-details">
+                    <div class="service-image">
+                        <img src="images/istockphoto-2200323741-612x612.jpg" alt="Hotel Booking">
+                    </div>
+                    <div class="service-info">
+                        <h3>Hotel Bookings</h3>
+                        <p>Find and book accommodations for your travels. From luxury resorts to budget-friendly options, we partner with hotels worldwide to bring you the best deals.</p>
+                        <ul>
+                            <li>Best price guarantee</li>
+                            <li>Flexible cancellation</li>
+                            <li>Loyalty rewards</li>
+                            <li>24/7 customer support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <!-- Booking section -->
+    <section class="bookings">
+        <div class="container">
+            <h2 class="section-title">Ready to Book?</h2>
+
+            <div class="booking-container">
+                <div class="booking-form-container">
+                    <form id="bookingForm" class="booking-form">
+                        <div class="form-group">
+                            <label for="service">Select Service</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="event_booking">Event Bookings</option>
+                                <option value="appointment_booking">Appointment Bookings</option>
+                                <option value="venue_booking">Venue Bookings</option>
+                                <option value="hotel_booking">Hotel Bookings</option>
+                            </select>
+                            <div class="error-message" id="serviceError"></div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="checkin">Check-In Date</label>
+                                <input type="date" id="checkin" name="checkin" required>
+                                <div class="error-message" id="checkinError"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="checkout">Check-Out Date</label>
+                                <input type="date" id="checkout" name="checkout" required>
+                                <div class="error-message" id="checkoutError"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="guest_count">Number of Guests</label>
+                            <input type="number" id="guest_count" name="guest_count" min="1" required>
+                            <div class="error-message" id="guestError"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="comments">Special Requests</label>
+                            <textarea id="comments" name="comments" rows="4"
+                                placeholder="Any special requirements..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Book Now</button>
+                    </form>
+                </div>
+
+                <div class="booking-image-container">
+                    <img src="images/istockphoto-2200323741-612x612.jpg"
+                        alt="Hotel Booking" class="booking-image">
+                    <div class="image-overlay">
+                        <h3>Why Book With Us?</h3>
+                        <ul class="benefits-list">
+                            <li><i class="fas fa-check-circle"></i> Best price guarantee</li>
+                            <li><i class="fas fa-check-circle"></i> 24/7 customer support</li>
+                            <li><i class="fas fa-check-circle"></i> Flexible cancellation</li>
+                            <li><i class="fas fa-check-circle"></i> Instant confirmation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Registration Section -->
+    <section id="registration" class="registration">
+        <div class="container">
+            <h2 class="section-title">Join Our Community</h2>
+    
+            <div class="registration-grid">
+                <div class="registration-benefits">
+                    <div class="benefits-content">
+                        <h3>Create an account to enjoy these benefits:</h3>
+                        <ul class="benefits-list">
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Faster bookings with saved preferences</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Exclusive deals and discounts</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Personalized recommendations</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Easy access to booking history</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Priority customer support</span>
+                            </li>
+                        </ul>
+    
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p>"Go2Bookings saved me so much time planning our company retreat. The venue options were
+                                    perfect!"</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Sarah J."
+                                    class="author-avatar">
+                                <div class="author-info">
+                                    <span class="author-name">Sarah J.</span>
+                                    <span class="author-title">Marketing Director</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="registration-form-container">
+                    <div class="form-header">
+                        <h3>Create Your Account</h3>
+                        <p>Fill in your details to get started</p>
+                    </div>
+    
+                    <form id="regForm" class="registration-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                            <div class="error-message" id="nameError"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            <div class="error-message" id="emailError"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Create password" required minlength="6">
+                            <div class="password-strength">
+                                <div class="strength-meter">
+                                    <span class="strength-bar"></span>
+                                </div>
+                                <span class="strength-text">Strength: <span id="strengthText">Weak</span></span>
+                            </div>
+                            <div class="error-message" id="passwordError"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="confirmPassword">Confirm Password</label>
+                            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm password" required>
+                            <div class="error-message" id="confirmError"></div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group half-width">
+                                <label for="dob">Birth Date</label>
+                                <input type="date" id="dob" name="dob" required>
+                                <div class="error-message" id="dobError"></div>
+                            </div>
+                            <div class="form-group half-width">
+                                <label>Gender</label>
+                                <div class="radio-group compact">
+                                    <label><input type="radio" name="gender" value="male" required> Male</label>
+                                    <label><input type="radio" name="gender" value="female"> Female</label>
+                                    <label><input type="radio" name="gender" value="other"> Other</label>
+                                </div>
+                                <div class="error-message" id="genderError"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Interests</label>
+                            <div class="checkbox-group compact">
+                                <label><input type="checkbox" name="interests" value="music"> Music</label>
+                                <label><input type="checkbox" name="interests" value="sports"> Sports</label>
+                                <label><input type="checkbox" name="interests" value="travel"> Travel</label>
+                                <label><input type="checkbox" name="interests" value="business"> Business</label>
+                                <label><input type="checkbox" name="interests" value="food"> Food</label>
+                            </div>
+                            <div class="error-message" id="interestsError"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="county">County</label>
+                            <select id="county" name="county" required>
+                                <option value="">Select county</option>
+                                <option value="nairobi">Nairobi</option>
+                                <option value="nakuru">Nakuru</option>
+                                <option value="mombasa">Mombasa</option>
+                                <option value="kisumu">Kisumu</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div class="error-message" id="countyError"></div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Sign Up</button>
+                        <p class="login-link">Have an account? <a href="#">Log in</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contacts Section -->
+    <section id="contacts" class="contacts">
+        <div class="contacts-container">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>Have questions or need assistance? Our team is here to help you.</p>
+                
+                <div class="contact-method">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+254 700 123 456</p>
+                    </div>
+                </div>
+                
+                <div class="contact-method">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>info@go2bookings.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-method">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Address</h3>
+                        <p>123 Booking Street, Nairobi, Kenya</p>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form id="contactForm" action="" method="">
+                    <div class="form-group">
+                        <label for="contactName">Your Name:</label>
+                        <input type="text" id="contactName" name="contactName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="contactEmail">Your Email:</label>
+                        <input type="email" id="contactEmail" name="contactEmail" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="contactSubject">Subject:</label>
+                        <input type="text" id="contactSubject" name="contactSubject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="contactMessage">Message:</label>
+                        <textarea id="contactMessage" name="contactMessage" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="team-section">
+            <h2>Our Team</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="images/istockphoto-1461077577-612x612.jpg" alt="Alice M.">
+                    <h3>Alice M.</h3>
+                    <p>Customer Support</p>
+                    <p>alice@go2bookings.com</p>
+                    <p>(254) 456-7890</p>
+                </div>
+                
+                <div class="team-member">
+                    <img src="images/istockphoto-1438969575-612x612.jpg" alt="Joseph K.">
+                    <h3>Joseph K.</h3>
+                    <p>Sales Manager</p>
+                    <p>joseph@go2bookings.com</p>
+                    <p>(254) 567-8901</p>
+                </div>
+                
+                <div class="team-member">
+                    <img src="images/istockphoto-1587604256-612x612.jpg" alt="Charity N.">
+                    <h3>Charity N.</h3>
+                    <p>Operations</p>
+                    <p>charity@go2bookings.com</p>
+                    <p>(254) 678-9012</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion Section -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    How do I make a booking?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="accordion-content">
+                    <p>Making a booking is simple! Just navigate to our services section, select the type of booking you need, fill out the required information, and submit your request. You'll receive a confirmation email with all the details.</p>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    What is your cancellation policy?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="accordion-content">
+                    <p>Our cancellation policy varies depending on the service provider. Generally, cancellations made at least 48 hours in advance receive a full refund. Late cancellations may incur a fee. The specific policy for your booking will be clearly stated during the reservation process.</p>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    How can I modify my existing booking?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="accordion-content">
+                    <p>To modify your booking, log in to your account and navigate to "My Bookings." From there, you can request changes to your reservation. For immediate assistance, you can also contact our customer support team.</p>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    Is my payment information secure?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="accordion-content">
+                    <p>Absolutely! We use industry-standard encryption to protect all your personal and payment information. We don't store your credit card details on our servers, and all transactions are processed through secure payment gateways.</p>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    Do you offer group discounts?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="accordion-content">
+                    <p>Yes, we offer special rates for group bookings! The discount varies depending on the size of your group and the service you're booking. Contact our sales team for more information about group rates and packages.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h2>Go2Bookings</h2>
+                <p>Making memorable bookings easy</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#booking">Services</a></li>
+                    <li><a href="#registration">Register</a></li>
+                    <li><a href="#contacts">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Event Bookings</a></li>
+                    <li><a href="#">Appointments</a></li>
+                    <li><a href="#">Venue Hire</a></li>
+                    <li><a href="#">Hotel Reservations</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe to get updates on special offers</p>
+                <form id="newsletterForm">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" title="Subscribe"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Go2Bookings. All rights reserved.</p>
+            <div class="legal-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
